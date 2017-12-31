@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  js:
+    image: 'node:8-alpine'
+    container_name: 'express-csp-demo'
+    ports:
+      - '9001:9001'
+    volumes:
+      - './:/usr/src/app'
+    command: '/bin/sh -c "cd /usr/src/app && npm start"'

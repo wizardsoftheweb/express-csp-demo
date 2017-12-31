@@ -1,0 +1,26 @@
+# Local configurations
+.gitconfig
+# Editors
+.idea
+*.sublime-*
+!*.sublime-project
+# Node and NPM
+node_modules
+npm-debug.log
+# Output that might exist but shouldn't be committed
+src/**/*.js
+src/**/*.map
+test/**/*.js
+test/**/*.map
+# Generated folders that should always be regenerated
+.nyc_output
+.npmTmp
+coverage
+logs
+docs
+dist
+wizards*.tgz
+# Personal working files (you might not need these)
+scratch.*s
+swap-out.log
+README.html
