@@ -43,6 +43,6 @@ app.get("*", (req, res) => {
 });
 
 // Vanillaish
-app.listen(9001, () => {
-    console.log("Example app listening on port 9001!");
+app.listen(9002, () => {
+    console.log("Example app listening on port 9002!");
 });
